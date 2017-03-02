@@ -58,7 +58,9 @@ ui = fluidPage(
       
       actionButton("compute", "Compute"), downloadButton('downloadData', 'Download'),
       
-      helpText(a("More details see technical report ",     href="https://sphhp.buffalo.edu/content/dam/sphhp/biostatistics/Documents/techreports/UB-Biostatistics-TR1701.pdf", target="_blank"))
+      helpText("More details see:"),
+      helpText(a("Technical report on SUNY Buffalo, Biostatistics department",     href="https://sphhp.buffalo.edu/content/dam/sphhp/biostatistics/Documents/techreports/UB-Biostatistics-TR1701.pdf", target="_blank")),
+      helpText(a('"testforDEP" source on CRAN',     href="https://CRAN.R-project.org/package=testforDEP", target="_blank"))
       
   ),
     mainPanel(
