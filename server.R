@@ -165,7 +165,7 @@ server =function(input, output, session) {
         out[1,7] = percentile
       }
       else{
-        for(i in 4:6)
+        for(i in 5:7)
           out[1,i] = NA
       }
           
