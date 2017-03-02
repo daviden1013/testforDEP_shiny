@@ -58,9 +58,7 @@ ui = fluidPage(
       
       actionButton("compute", "Compute"), downloadButton('downloadData', 'Download'),
       
-      helpText("Technical report: https://sphhp.buffalo.edu/content/dam/
-sphhp/biostatistics/Documents/techreports/
-UB-Biostatistics-TR1701.pdf")
+      helpText(a("More details see technical report ",     href="https://sphhp.buffalo.edu/content/dam/sphhp/biostatistics/Documents/techreports/UB-Biostatistics-TR1701.pdf", target="_blank"))
       
   ),
     mainPanel(
